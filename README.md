@@ -1,23 +1,23 @@
 # PHP Shop (simple)
 
-Это простой PHP-проект магазина (статический по структуре файлов). В корне проекта находятся скрипты для каталога, корзины, оформления заказа и т.д.
+This is a simple PHP store project (static in file structure). At the root of the project are scripts for catalog, shopping cart, checkout, etc.
 
-Файлы в проекте (не исчерпывающий список):
+Files in the project (not an exhaustive list):
 
-- `index.php` — главная страница
-- `catalog.php` — каталог товаров
-- `product.php` — страница товара
-- `cart.php`, `cart_ajax.php`, `cart_table_content.php` — корзина
-- `checkout.php`, `checkout_success.php`, `fake_payment.php` — оформление заказа
-- `login.php`, `logout.php`, `register.php`, `profile.php` — авторизация/профиль
-- `db_connect.php` — подключение к БД
-- `styles.css` — стили
-- `images/products/` — изображения товаров
+- `index.php` — main page
+- `catalog.php` — catalog
+- `product.php` — product page
+- `cart.php`, `cart_ajax.php`, `cart_table_content.php` — basket
+- `checkout.php`, `checkout_success.php`, `fake_payment.php` — making an order
+- `login.php`, `logout.php`, `register.php`, `profile.php` — authorization/profile
+- `db_connect.php` — connecting to the DB
+- `styles.css` — styles
+- `images/products/` — product images
 
-Требование
+Requirement
 ---------
 
-Для корректной работы этот проект зависит от другого моего репозитория: `csharp-db-app`.
-Пожалуйста, установите или запустите `csharp-db-app` отдельно перед использованием этого проекта.
+This project depends on my other repository to work correctly.: `csharp-db-app`.
+Please install or run `csharp-db-app` separately before using this project.
 
-Репозиторий `csharp-db-app`: https://github.com/Ant1Van/csharp-db-app
+The Repository `csharp-db-app`: https://github.com/Ant1Van/csharp-db-app
