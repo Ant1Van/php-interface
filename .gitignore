@@ -1,0 +1,19 @@
+# Ignore common PHP and OS files
+.env
+/.vscode/
+/vendor/
+composer.lock
+composer.phar
+node_modules/
+/.idea/
+*.log
+*.cache
+*.sql
+*.sqlite
+thumbs.db
+desktop.ini
+Thumbs.db
+__MACOSX/
+
+# Ignore PHP session files
+/tmp/
